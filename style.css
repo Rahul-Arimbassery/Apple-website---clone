@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 03em;
+    background-size: cover;
+    background-position: center; 
+    padding: 02px 8%;
+    position: relative;
+    background: #000;
+}
+
+.logo{
+    width: 172px;
+    cursor: pointer;
+    padding-left: 150px;
+}
+.header a{
+    text-decoration: none;
+    color: #b1b0b0;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+}
+.logo1{
+    width: 120px;
+    cursor: pointer;
+    padding-left: 40px;
+}
+.bar{
+    width: 100%;
+    height: 03em;
+    background: #29292b;
+    background-size: cover;
+    background-position: center;
+    padding: 15px 8%;
+    padding-left: 320px;
+    position: relative;
+    color: white;
+}
+.bar a{
+    color: #6aaeee;
+    text-decoration: none;
+}
+.phone{
+    background: #000;
+}
+
+.phone h1{
+    color: white;
+    background: #000;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.phone h2{
+
+    color: white;
+    background: #000;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.phone p{
+    margin-left: 45%;
+    border:2px solid rgb(142, 140, 140);
+    border-radius: 100px;
+    width: 150px;
+    height: 30px;
+    color: rgb(149, 146, 146);
+    text-align: center;
+    background: black;
+    font-size: 16px;
+    padding-top: 04px;
+    padding-bottom: 20px;
+}
+.phone a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 650px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.phone .new{
+    
+    padding: 10px 36px 200px;
+}
+
+.logo2{
+    width: 100%;
+    height: 32em;
+    cursor: pointer;
+}
+
+.phonesecond{
+    background: #fbfbfd;
+}
+.phonesecond h1{
+    color: black;
+    background: #fbfbfd;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.phonesecond h2{
+
+    color: black;
+    background: #fbfbfd;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.phonesecond p{
+    border:2px solid rgb(142, 140, 140);
+    margin-left: 45%;
+    border-radius: 100px;
+    width: 150px;
+    height: 30px;
+    color: rgb(149, 146, 146);
+    text-align: center;
+    background: #fbfbfd;
+    font-size: 16px;
+    padding-top: 04px;
+    padding-bottom: 20px;
+}
+.phonesecond a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 650px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.phonesecond .new{
+    
+    padding: 10px 50px 200px;
+}
+
+
+
+.phonethird{
+    background: black;
+}
+
+.apple{
+    width: 50px;
+    margin-left: 620px;
+    padding-top: 45px;
+    cursor: pointer;
+}
+
+.phonethird h1{
+    display: inline;
+    color: white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 45px;
+    padding-left: 00px;
+    font-style: normal;
+}
+
+.phonethird h2{
+
+    color: rgb(146, 7, 7);
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.phonethird h3{
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.phonethird a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 650px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.phonethird .new{
+    
+    padding: 10px 50px 200px;
+}
+
+#container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+.part1{
+    background: black;
+    width: 50%; 
+}
+.part1 h1{
+    color: white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part1 h2{
+
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part1 h3{
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part1 a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.part1 .new{
+    
+    padding: 10px 50px 200px;
+}
+
+.part2{
+    background: black;
+    width: 50%; 
+    margin-left: 10px;
+}
+.part2 h1{
+    color: white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part2 h2{
+
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part2 h3{
+    color: rgb(161, 158, 158);
+    background: black;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part2 a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.part2 .new{
+    
+    padding: 10px 50px 200px;
+}
+
+
+
+.part3{
+    background: black;
+    width: 50%; 
+    margin-left: 02px;
+}
+.part3 h1{
+    color: white;
+    background: black;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part3 h2{
+
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part3 h3{
+    color: rgb(161, 158, 158);
+    background: black;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part3 a{
+    text-decoration: none;
+    color: #6aaeee;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 250px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.part3 .new{
+    
+    padding: 10px 50px 200px;
+}
+
+
+.part4{
+    background: #fcd8ca;
+    width: 50%; 
+    margin-left: 10px;
+}
+.part4 h1{
+    color: black;
+    background: #fcd8ca;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part4 h2{
+
+    color: black;
+    background: #fcd8ca;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part4 h3{
+    color: rgb(161, 158, 158);
+    background: #fcd8ca;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part4 a{
+    text-decoration: none;
+    color: #1f81dd;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 310px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+
+
+.part5{
+    background: #110217;
+    width: 50%; 
+    margin-left: 03px;
+}
+.part5 h1{
+    color: white;
+    background: #110217;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part5 h2{
+
+    color: white;
+    background: #110217;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part5 h3{
+    color: rgb(161, 158, 158);
+    background: #110217;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part5 a{
+    text-decoration: none;
+    color: #1f81dd;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 290px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.part5 .new{
+    
+    padding: 05px 20px 100px;
+}
+
+
+.part6{
+    background: #fbfbfb;
+    width: 50%; 
+    margin-left: 10px;
+}
+.part6 h1{
+    color: black;
+    background: #fbfbfb;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 45px;
+    font-style: normal;
+}
+
+.part6 h2{
+
+    color: black;
+    background: #fbfbfb;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part6 h3{
+    color: rgb(161, 158, 158);
+    background: #fbfbfb;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    padding-block: 10px;
+}
+.part6 a{
+    text-decoration: none;
+    color: #1f81dd;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-left: 290px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.47059;
+    font-style: normal;
+    
+}
+.part6 .new{
+    
+    padding: 10px 30px 200px;
+}
+
+.logobottom{
+    padding-top: 10px;
+    width: 100%;
+    height: 42em;
+    cursor: pointer;
+}
+.sentance{
+    padding-left: 280px;
+    padding-right: 240px;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+}
+
+
+.footer{
+    
+    padding-left: 280px;
+    padding-right: 240px;
+    color: #777;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;  
+    
+}
+.footer h2{
+    font-size: 13px; 
+    color: #000;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 12px;   
+}
+
+
+.col1{
+    border-top: 1px solid rgb(205, 201, 201);
+    width: 20%;
+    line-height:12px;
+}
+
+.col2{
+    border-top: 1px solid rgb(205, 201, 201);
+    width: 20%;
+    line-height:12px;
+}
+
+.col3{
+    border-top: 1px solid rgb(205, 201, 201);
+    width: 20%;
+    line-height:12px;
+}
+
+.col4{
+    border-top: 1px solid rgb(205, 201, 201);
+    width: 20%;
+    line-height:12px;
+}
+
+.col5{
+    border-top: 1px solid rgb(205, 201, 201);
+    width: 20%;
+    line-height:12px;
+}
+
+.col1 a:hover{
+ 
+    text-decoration: underline;   
+}
+
+.col2 a:hover{
+ 
+    text-decoration: underline;   
+}
+
+.col3 a:hover{
+ 
+    text-decoration: underline;   
+}
+
+.col4 a:hover{
+ 
+    text-decoration: underline;   
+}
+
+.col5 a:hover{
+ 
+    text-decoration: underline;   
+}
+
+.footer h4{
+    font-size: 13px;
+    width: 50%;
+    line-height:14px;
+}
+.final{
+    color: #000;
+    line-height:30px; 
+}
+.final1 {
+    padding: 10px;
+    font-size: 14px;
+    line-height:10px;
+    
+}
+.final2 {
+    padding-left: 185px;
+    font-size: 14px;
+    line-height:10px;
+}
+
